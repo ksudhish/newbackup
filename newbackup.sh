@@ -1,3 +1,4 @@
+
 #!/bin/bash
 set -eo pipefail
 #
@@ -87,8 +88,8 @@ DOHOURLY="no"
 HOURLYRETENTION=24
 
 # Do you want to do daily backups? How long do you want to keep them?
-DODAILY="yes"
-DAILYRETENTION=0
+#DODAILY="yes"
+#DAILYRETENTION=0
 
 # Which day do you want weekly backups? (1 to 7 where 1 is Monday)
 DOWEEKLY="yes"
